@@ -1,0 +1,16 @@
+
+
+
+server:  port: 9092
+
+    
+    
+
+# Local Elasticsearch config
+spring:
+ data:
+  elasticsearch:
+   repositories:
+    enabled: true
+   cluster-nodes: localhost:9300
+   cluster-name: elasticsearch
